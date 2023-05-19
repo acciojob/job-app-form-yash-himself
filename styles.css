@@ -1,2 +1,33 @@
 
 /* Your CSS Code here. */
+*{
+	box-sizing:border-box;
+}
+form{
+	width:70vw;
+	height:90vh;
+	background-color:#abba25bd;
+	padding:20px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	border-radius:5px
+	
+}
+input,select,button{
+	height:25px;
+	cursor:pointer;
+	border-radius:4px;
+	border:1px solid #aba5ad;
+}
+button{
+	background-color:blue;
+	color:white;
+	font-weight:700;
+	border-radius:5px;
+	width:20vw;
+	cursor:pointer;
+}
+.gender-sel{
+	margin-bottom:10px
+}
